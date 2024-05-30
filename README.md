@@ -1,2 +1,49 @@
-# WebScraping_Project
-This project utilizes Python's BeautifulSoup and Pandas for web scraping, extracting data from the Wikipedia page listing India's largest companies. The aim is to clean and structure the data for further analysis, showcasing the power of web scraping and Pandas in data manipulation.
+# Web Scraping of India's Largest Companies
+
+## Overview
+
+This project utilizes Python's BeautifulSoup and Pandas libraries to perform web scraping on the Wikipedia page listing the largest companies in India. The extracted data is cleaned and structured into a CSV file for further analysis or use.
+
+## Features
+
+- **Web Scraping**: Utilizes BeautifulSoup and requests to extract data from the Wikipedia page.
+- **Data Cleaning**: Uses Pandas to clean and structure the extracted data.
+- **CSV Export**: The cleaned data is exported to a CSV file for easy access and analysis.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- BeautifulSoup
+- Pandas
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Sumitk874/WebScraping_Project.git
+   ```
+
+2. Install the required libraries:
+
+   ```bash
+   pip install beautifulsoup4 pandas
+
+## Open the jupyter notebook
+
+[View Notebook on GitHub](webScraping.ipynb)
+
+
+## Data Source
+
+The data was scraped from the Wikipedia page: [List of largest companies in India](https://en.wikipedia.org/wiki/List_of_largest_companies_in_India).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the contributors of BeautifulSoup and Pandas for their fantastic libraries!
